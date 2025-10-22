@@ -30,7 +30,7 @@ export default function CardProdutos() {
 
     const handleComprar = (id) => {
         AdicionarAoCarrinho(id)
-        setFlash({ type: "success", text: "Adicionado com sucesso!" });
+        setFlash({ type: "success", text: "Adicionado ao carrinho, entre no Menu para acessar!" });
     };
     return (
 
@@ -63,6 +63,7 @@ export default function CardProdutos() {
         </ProdutosSection>
     )
 }
+
 
 
 
